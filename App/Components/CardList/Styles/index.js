@@ -14,12 +14,15 @@ export default StyleSheet.create({
     borderColor: 'gray',
     borderWidth: 1,
   },
-  text: {
+  boldText: {
     fontSize: 30,
   },
   searchText: {
     fontSize: 20,
   },
+  text : {
+      fontSize: 20, paddingBottom: 10
+  }
   button: {
     backgroundColor: 'lightgray',
     borderRadius: 5,

@@ -33,17 +33,17 @@ export function CardList(props) {
         </View>
 
         <View style={Styles.container}>
-          <Text style={{fontSize: 20, paddingBottom: 10}}>
-            <Text style={{fontWeight: 'bold'}}>Name</Text> :{c.name}
+          <Text style={Styles.text}>
+            <Text style={Styles.boldText}>Name</Text> :{c.name}
           </Text>
-          <Text style={{fontSize: 20, paddingBottom: 10}}>
-            <Text style={{fontWeight: 'bold'}}>Card Set</Text> :{c.cardSet}
+          <Text style={Styles.text}>
+            <Text style={Styles.boldText}>Card Set</Text> :{c.cardSet}
           </Text>
-          <Text style={{fontSize: 20, paddingBottom: 10}}>
-            <Text style={{fontWeight: 'bold'}}>Class</Text> :{c.playerClass}
+          <Text style={Styles.text}>
+            <Text style={Styles.boldText}>Class</Text> :{c.playerClass}
           </Text>
-          <Text style={{fontSize: 20, paddingBottom: 10}}>
-            <Text style={{fontWeight: 'bold'}}>Type</Text> :{c.type}
+          <Text style={Styles.text}>
+            <Text style={Styles.boldText}>Type</Text> :{c.type}
           </Text>
           <HTML html={c.text} />
         </View>
