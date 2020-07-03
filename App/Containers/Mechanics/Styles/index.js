@@ -12,7 +12,7 @@ export default StyleSheet.create({
     borderWidth: 0.5,
     padding: 10,
     margin: 5,
-    backgroundColor: '#dfdfd',
+    backgroundColor: '#dfdfdf',
     alignSelf: 'stretch',
   },
   text: {
