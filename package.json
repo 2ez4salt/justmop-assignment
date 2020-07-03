@@ -7,11 +7,27 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "jest": {
+      "preset": "jest-react-native"
+    }
   },
   "dependencies": {
+    "@react-native-community/masked-view": "^0.1.10",
+    "@react-navigation/native": "^5.6.1",
+    "@react-navigation/stack": "^5.6.2",
+    "axios": "^0.19.2",
+    "axios-cancel": "^0.2.2",
     "react": "16.11.0",
-    "react-native": "0.62.2"
+    "react-native": "0.62.2",
+    "react-native-debounce-input": "^1.0.5",
+    "react-native-flip-card": "^3.5.6",
+    "react-native-gesture-handler": "^1.6.1",
+    "react-native-reanimated": "^1.9.0",
+    "react-native-render-html": "^4.2.0",
+    "react-native-safe-area-context": "^3.0.7",
+    "react-native-screens": "^2.9.0",
+    "react-native-webview": "^10.3.2"
   },
   "devDependencies": {
     "@babel/core": "^7.10.3",
@@ -21,6 +37,7 @@
     "eslint": "^7.3.1",
     "jest": "^26.1.0",
     "metro-react-native-babel-preset": "^0.59.0",
+    "react-native-testing-library": "^2.1.0",
     "react-test-renderer": "16.11.0"
   },
   "jest": {
